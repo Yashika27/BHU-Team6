@@ -3,21 +3,21 @@
 <head>
     <meta charset="utf-8">
 	<title>Filter</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="../static/style.css" rel="stylesheet">
 </head>
 <body>
 	<form class="box" action="" method="post">
-        <h1>Requirements</h1>
+        <h1>Add Filters</h1>
         <p>
-            {{form.fsymbol.label}}<br>
-            {{form.fsymbol(size=30)}}
+            <div class="inp-text"> {{form.fsymbol.label}} </div>  
+           <div class="inp-text"> {{form.fsymbol(size=30)}} </div>
         </p>
         <p>
-            {{form.charttype.label}}<br>
-            {{form.charttype(size=30)}}
+            <div class="inp-text"> {{form.charttype.label}} </div>  
+           <div class="inp-text"> {{form.charttype(size=30)}} </div>
         </p>
         <p>
-            {{form.submit()}}
+            <div class="inp-sub">{{form.submit()}}</div>
         </p>
     </form>
   </body>
