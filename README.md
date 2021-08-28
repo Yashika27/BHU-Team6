@@ -18,7 +18,11 @@ All the input values entered previously(history) come under the suggested input 
 
 
 
-## Installation
+
+## Quick Start
+To get this project up and running locally on your computer:
+
+1. Assuming you have Python setup, run the following commands
 
 ```
 pip install flask
@@ -32,3 +36,9 @@ pip install numpy
 pip install mplfinanace
 pip install yfinance
 ```
+2. Obtain the source code and execute the app.py file
+3. Open a browser and navigate to http://127.0.0.1:5000/
+
+
+
+
