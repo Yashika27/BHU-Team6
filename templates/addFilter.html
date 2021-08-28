@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+	<title>Filter</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<form class="box" action="" method="post">
+        <h1>Requirements</h1>
+        <p>
+            {{form.fsymbol.label}}<br>
+            {{form.fsymbol(size=30)}}
+        </p>
+        <p>
+            {{form.charttype.label}}<br>
+            {{form.charttype(size=30)}}
+        </p>
+        <p>
+            {{form.submit()}}
+        </p>
+    </form>
+  </body>
+</html>
