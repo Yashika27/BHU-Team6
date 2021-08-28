@@ -24,10 +24,10 @@ def func(fsymbol, charttype):
     dk = df.loc[df['symbol']==fsymbol]
 
     if charttype != "":
-        mpf.plot(dk, type = charttype, savefig=filename)
+        mpf.plot(dk, type = charttype, savefig=filename, style="binance")
 
     else:
-        mpf.plot(dk, savefig=filename)
+        mpf.plot(dk, savefig=filename,  tight_layout=True, style="binance")
 
     #mpf.plot(df["2020-12-01":],type="candle")
 
