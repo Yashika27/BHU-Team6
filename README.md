@@ -17,6 +17,7 @@ All the input values entered previously(history) come under the suggested input 
 ![ssto](https://user-images.githubusercontent.com/76526892/131219514-18b46ca9-7951-462d-9d0f-f263ad729924.png)
 
 
+
 ## Installation
 
 ```

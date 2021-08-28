@@ -4,7 +4,7 @@ import mplfinance as mpf
 import yfinance as yf
 
 #take from form
-# 1. fsymbol
+# 1.   ifsymbol
 # 2.   type of fgraph
 #     - OHLC                = default  
 #     - Candlestick charts, = cande
@@ -29,15 +29,6 @@ def func(fsymbol, charttype):
     else:
         mpf.plot(dk, savefig=filename,  tight_layout=True, style="binance")
 
-    #mpf.plot(df["2020-12-01":],type="candle")
 
 
-
-
-    #TICKER = "AAPL"
-
-    #df = yf.download(TICKER, 
-                    # start="2020-07-01", 
-                    #end="2020-12-31", 
-                    #auto_adjust=True)
 
