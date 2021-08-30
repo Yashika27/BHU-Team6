@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+	<title>Filter</title>
+    <link href="../static/style.css" rel="stylesheet">
+</head>
+<body>
+	<form class="box" method="post" action="{{ url_for('handle_data') }}">
+        <h1>Add Filters</h1>
+        <p>
+            <div class="inp-text"> {{form.fsymbol.label}} </div>  
+           <div class="inp-text"> {{form.fsymbol(size=30)}} </div>
+        </p>
+        <p>
+        <h3 style="color: white">Leave blank for OHLC.
+        Else type any one of candle, renko or line.</h3>
+            <div class="inp-text"> {{form.charttype.label}} </div>  
+           <div class="inp-text"> {{form.charttype(size=30)}} </div>
+        </p>
+        <p>
+            <div class="inp-sub">{{form.submit()}}</div>
+        </p>
+    </form>
+  </body>
+</html>
